@@ -11,9 +11,10 @@ import (
 func Listen() {
 
 	reader := bufio.NewScanner(os.Stdin)
-	listening := true
 
 	client := cache.CreateClient()
+
+	listening := true
 
 	for listening {
 
@@ -47,13 +48,11 @@ func Listen() {
 
 				value := strings.Join(s, " ")
 				client.SetKeyValue(key, value)
-
 				break
 
 			} else {
 				fmt.Println("Invalid input!")
 				break
-
 			}
 		}
 	}
