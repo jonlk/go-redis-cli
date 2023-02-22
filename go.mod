@@ -1,4 +1,4 @@
-module go-redis-client
+module go-redis-cli
 
 go 1.20
 

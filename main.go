@@ -3,7 +3,7 @@ package main
 import (
 	"bufio"
 	"fmt"
-	"go-redis-client/cache"
+	"go-redis-cli/cache"
 	"os"
 	"strings"
 )
