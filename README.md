@@ -1,4 +1,4 @@
-# go-redis-cli
+# Go Redis CLI
 
 Simple Go CLI for Redis
 
